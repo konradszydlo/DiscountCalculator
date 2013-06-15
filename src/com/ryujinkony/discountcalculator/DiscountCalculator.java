@@ -15,7 +15,7 @@ public class DiscountCalculator extends Activity {
 	private static final String PRICE_TOTAL = "PRICE_TOTAL";
 	private static final String CUSTOM_PERCENT = "CUSTOM_PERCENT";
 
-	private double currentPriceTotal; // price amount entered by the user
+	private double currentPriceTotal; // price amount entered by the user.
 	private int currentCustomPercent; // discount % set with the SeekBar
 	private EditText discount10EditText; // displays 10% discount
 	private EditText total10EditText; // displays total with 10% discount
